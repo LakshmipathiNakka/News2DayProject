@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', ' Roboto',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.span-para {
+  color: #e32030;
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.main-Heading {
+  color: #e32030;
+  font-family: 'Roboto';
+  font-size: 50px;
+  width: 50%;
+  text-align: center;
+}
+.heading-2 {
+  color: #29283b;
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+.label-text {
+  font-size: 13px;
+  color: #5c5e5c;
+  margin-bottom: 5px;
+}
+.input-bar {
+  width: 250px;
+  height: 40px;
+
+  color: black;
+}
+
+.input-bar:hover {
+  background-color: #5c5e5c;
+  color: #ffffff;
+}
+.form-container {
+  padding: 30px;
+}
+
+.para {
+  color: #918c8c;
+  font-family: 'Roboto';
+  font-size: 20px;
+  text-align: center;
+}
+.para-1 {
+  width: 50%;
+  border-bottom: #a4aba6 solid 1.5px;
+  padding-bottom: 25px;
+}
+
+button {
+  background-color: #ffffff;
+  margin: 10px;
+  color: #a4aba6;
+  padding: 10px;
+  outline: none;
+  font-weight: 500;
+  cursor: pointer;
+  border: #a4aba6 solid 1.5px;
+}
+
+button:hover {
+  color: #e32030;
+  background-color: #ffffff;
+  border: #e32030 solid 1.5px;
+  margin: 10px;
+  padding: 10px;
+  outline: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+.button-1 {
+  color: #e32030;
+  background-color: #ffffff;
+  border: #e32030 solid 1.5px;
+  margin: 10px;
+  padding: 10px;
+  outline: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+.search-img {
+  width: 30px;
+  height: 25px;
+}
+@media screen and (max-width: 768px) {
+  .main-Heading {
+    color: #e32030;
+    font-family: 'Roboto';
+    font-size: 30px;
+    width: 90%;
+  }
+  .intro-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .para {
+    color: #918c8c;
+    font-family: 'Roboto';
+    font-size: 15px;
+    text-align: center;
+  }
+  .para-1 {
+    width: 90%;
+    border-bottom: #a4aba6 solid 1.5px;
+    padding-bottom: 25px;
+  }
+  .image {
+    width: 120%;
+  }
+}
